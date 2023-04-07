@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.whole-container {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    height: full-screen;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+  
+    background: rgb(181,181,221);
+    background: linear-gradient(153deg, rgba(181,181,221,1) 11%, rgba(230,226,236,1) 82%);
+
+}
+
+.real-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+.real-container h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-weight: bolder;
+
+
+}
+
+.url-inputs {
+    display: flex;
+    justify-content: space-around;
+
+}
+.url-inputs input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    outline: none;
+
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px 10px;
+    width: 500px;
+    margin-right: 10px;
+    font-size: 10px;
+    
+}
+.url-inputs button {
+    padding: 9px 10px;
+    color: white;
+    border-radius: 6px;
+    background: rgb(49,49,240);
+
+background: linear-gradient(153deg, rgba(49,49,240,1) 11%, rgba(163,110,241,1) 82%);
+}
+.url-inputs input:active {
+    border: 1px solid whitesmoke;
+}
+
+.url-inputs input:focus {
+    border: 1px solid whitesmoke;
+}
+
+.success-parent {
+    margin: 50px;
+    border: 1px solid grey;
+    padding: 30px 30px;
+    border-radius: 3px;
+
+}   
+
+.header-one {
+    font-weight: bold;
+
+}
+.success-one p {
+    font-size: 15px;
+
+}
+.links {
+    text-decoration: underline;
+    font-size: 15px;
+    background: rgb(49, 47, 47);
+    color: white;
+    border: 1px solid white;
+    padding: 2px 2px;
+}
