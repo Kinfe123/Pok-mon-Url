@@ -5,7 +5,7 @@ function HomePage():JSX.Element {
   const [longUrl , setLongUrl] = useState<String>('')
   const {mutate: shortenUrl , data:loggedData  , isSuccess , isLoading} = api.example.shortenUrl.useMutation()
   const handleClick = () => {
-    console.log('The url ; ' , {longUrl})
+   
     shortenUrl({
       longUrl: longUrl,
     });

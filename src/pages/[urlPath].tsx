@@ -9,7 +9,7 @@ function UrlPath() {
   const {data } = api.example.getShortUrl.useQuery({
        shortUrl:queries.query.urlPath
   })
-  console.log("The logged data from path ," , data)
+
   useEffect(() => {
         if(!data){
             // return <div>I cant find this pokemon</div>
